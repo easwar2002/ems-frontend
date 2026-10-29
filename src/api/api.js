@@ -1,7 +1,7 @@
+
 import axios from "axios";
 
-const API_URL = "https://mountain-gui-units-stocks.trycloudflare.com";
-
+const API_URL = "https://mountain-gui-units-stocks.trycloudflare.com/api/employees";
 
 export const getEmployees = () => {
     return axios.get(API_URL);
